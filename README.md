@@ -155,9 +155,9 @@ Once the workflow finishes successfully:
 
 1. Go to your Appetize dashboard — you'll see the app updated with the new build
 2. Click the app to start testing it
-
-<video src="screenshots/Demo%20Video.webm" width="100%" controls></video>
-
 3. You can share the app so anyone with the link can open it in a browser and interact with the simulator — no download required
+
+[Demo Video.webm](https://github.com/user-attachments/assets/a520aad7-394a-42c4-be2b-d79c01440349)
+
 
 You can also download the raw `.zip` from the **Artifacts** section of the completed GitHub Actions run, if you want the build without going through Appetize.
