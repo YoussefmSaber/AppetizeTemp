@@ -26,6 +26,10 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
+      # Grant execution permissions
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
       # Clean the Gradle build, then build the iOS app with Xcode
       - name: Build with Xcode
         run: |
